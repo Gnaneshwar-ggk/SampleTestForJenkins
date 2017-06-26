@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HookableExample Suite]">
+  <test name="HookableListenerExample">
+    <classes>
+      <class name="com.ggktech.listeners.HookableExample"/>
+    </classes>
+  </test> <!-- HookableListenerExample -->
+</suite> <!-- Failed suite [HookableExample Suite] -->

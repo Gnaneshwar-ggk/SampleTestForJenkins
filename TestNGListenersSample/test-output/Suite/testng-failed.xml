@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test456">
+    <classes>
+      <class name="com.ggktech.tests.TestListenerExample"/>
+      <class name="com.ggktech.tests.sample"/>
+    </classes>
+  </test> <!-- Test456 -->
+  <test name="Test456(failed)">
+    <classes>
+      <class name="com.ggktech.tests.TestListenerExample">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test4"/>
+          <include name="setup"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.ggktech.tests.TestListenerExample -->
+    </classes>
+  </test> <!-- Test456(failed) -->
+</suite> <!-- Failed suite [Suite] -->

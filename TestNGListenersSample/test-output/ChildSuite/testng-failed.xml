@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ChildSuite]">
+  <parameter name="ui" value="web"/>
+  <listeners>
+    <listener class-name="com.ggktech.listeners.iSuiteListener"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.ggktech.tests.SuiteListenerExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [ChildSuite] -->
